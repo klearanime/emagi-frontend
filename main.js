@@ -9,7 +9,7 @@ const searchResult = emagiSearch(search)
 const convert = emagiSearch(search)
 const isIt = emagiSearch(search)
 
-console.log(convert)
+
 console.log(searchResult)
-console.log('Is this the appropiate' + isIt)
+console.log('Is this the appropiate ' + isIt)
 
