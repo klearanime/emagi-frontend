@@ -3,25 +3,13 @@ const emagify = require('./emagify.js');
 const randomElement = require('./emagi-random.js');
 
 
-function randonElement(random) {
-    return random()
-}
 
-function getInput(i) {
-    return ProcessingInstruction.argv[i + 2];
-} if ( getInput <= String.length) {
-return = getInput + '' + '.';
-} else if (emagiSearch === 'undefined') {
-    return.statusMessage('I can/t find that emoji');
-} else {
-    return getInput(i)
-}
+const search = process.argv[2]
+const searchResult = emagiSearch(search)
+const convert = emagiSearch(search)
+const isIt = emagiSearch(search)
 
-function emagiSearch(convert) {
-    return convert.constructor.toString().indexOf
-        ([i]) > -1;
-      }
-// return convert.splice(0, 2)
-console .log(*) 
-    
-}
+console.log(convert)
+console.log(searchResult)
+console.log('Is this the appropiate' + isIt)
+
